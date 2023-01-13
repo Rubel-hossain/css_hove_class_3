@@ -27,3 +27,52 @@
   opacity: 1;
   visibility: visible;
 }
+
+.right-card {
+  text-align: right;
+}
+.right-card h2 {
+  color: #fff;
+  font-size: 70px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.right-card p {
+  color: #fff;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.rit-btn {
+  color: #fff;
+  background-color: green;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.rit-btn:hover {
+  background-color: blue;
+  transition: 0.4s;
+}
+
+.card-icons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.card-icons a {
+  font-size: 25px;
+  color: #fff;
+  padding: 5px;
+}
+.card-icons a:hover {
+  color: #ffc107;
+}

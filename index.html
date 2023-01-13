@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>CSS Hove Effect 3</title>
   </head>
   <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper" style="background: #4dc7a0">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="card">
               <div class="card-image">
@@ -26,13 +28,47 @@
                 <h6 class="text-white card-sub-title">
                   Lorem ipsum, dolor sit amet consectetur
                 </h6>
+                <div class="card-icons">
+                  <a
+                    href="assets/images/02.jpg"
+                    data-lightbox="my-gallery"
+                    data-title="my gallery"
+                    ><i class="fa fa-thin fa-magnifying-glass-plus"></i
+                  ></a>
+                  <a href="https://prothomalo.com" target="_blank"
+                    ><i class="fa fa-solid fa-link"></i
+                  ></a>
+                </div>
               </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="right-card">
+              <h2>we live in bangladesh <br />from bogra</h2>
+              <p>
+                Lorem, ipsum dolor sit amet, consectetur adipisicing<br />
+                elit. Assumenda, incidunt eum fuga minus dicta dolor illo
+                sapiente<br />
+                fugiat nisi error nemo? Ad quod, dignissimos assumenda
+                <br />sint vitae voluptatum ipsam dolorum.
+              </p>
+              <button class="rit-btn">singup now</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <a
+      href="assets/images/02.jpg"
+      data-lightbox="image-1"
+      data-title="My caption"
+      >Image #1</a
+    >
+
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
     <script src="assets/js/custom.js"></script>
   </body>
 </html>
